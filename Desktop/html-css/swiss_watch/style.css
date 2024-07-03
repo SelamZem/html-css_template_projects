@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  /*   border: 1px solid white; */
+  }
+  .contain{
+      background-image: 
+  linear-gradient(to right,hsla(291, 90%, 61%, 0.3),hsla(268, 89%, 38%, 0.8)), url("https://t3.ftcdn.net/jpg/04/80/18/26/360_F_480182677_lvtntDF0s5hJlTZqStOmShktebxhGvql.jpg");
+    background-repeat: no-repeat;
+     background-size: 100% 100%;
+   min-height: 50vh;
+   }
+  .container{
+    width: 100%;
+    positon: relative;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .container2{
+  /*   border: 2px solid white; */
+    
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+  }
+  
+  .container .nav_bar{
+    padding: 7px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+  }
+  
+  .nav_bar a:first-child {
+    margin-right: 30%;
+    font-size: 25px;
+  }
+  .nav_bar a{
+      color: #ebeef2;
+  }
+  
+  .container .span{
+    width: 100%;
+    height: 60px;
+  }
+  
+  .container2 .home_page{
+    width: 50%;
+    height: auto;
+    margin: 80px;
+    position: absolute;
+    padding: 20px;
+    }
+  .homepage,h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+    }
+  .no_wrap{
+    white-space: nowrap;
+  }
+
+  
+  .button{
+    background-color: white;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+  }
+  .contain svg{
+    display: block;
+  }
+  .nav_bar, a{
+    text-decoration: none;
+    font-family: cursive;
+  }
+  
+  a:visited{
+    color:#d94316;
+  }
+  a:hover{
+   color: #f2dfe2;
+  }
+  
